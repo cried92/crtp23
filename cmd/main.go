@@ -39,7 +39,6 @@ func main() {
 	if err != nil {
 		log.Fatal("Error inserting user into PostgreSQL:", err)
 	}
-
 	// Your application logic here
 	// Use telegramBot, binanceAPI, and db to interact with Telegram, Binance, and PostgreSQL.
 }
